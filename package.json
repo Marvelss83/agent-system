@@ -7,6 +7,6 @@
     "node": ">=18"
   },
   "devDependencies": {
-    "vercel": "^2.5.0"
+    "vercel": "latest"
   }
 }
