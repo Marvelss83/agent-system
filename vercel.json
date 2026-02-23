@@ -1,0 +1,19 @@
+{
+  "buildCommand": "npm install",
+  "outputDirectory": "api",
+  "installCommand": "npm install",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "/api/index.js"
+    }
+  ],
+  "functions": [
+    {
+      "name": "api/index",
+      "path": "api/index.js",
+      "description": "Main API Handler"
+    }
+  ]
+}
