@@ -3,25 +3,10 @@
   "version": "1.0.0",
   "description": "Agent System - Vercel Deployment",
   "main": "api/index.js",
-  "scripts": {
-    "dev": "node api/index.js",
-    "start": "node api/index.js"
-  },
   "engines": {
     "node": ">=18"
   },
-  "dependencies": {
+  "devDependencies": {
     "vercel": "^2.5.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/your-username/agent-system.git"
-  },
-  "keywords": [
-    "agent",
-    "system",
-    "vercel"
-  ],
-  "author": "",
-  "license": "MIT"
+  }
 }
