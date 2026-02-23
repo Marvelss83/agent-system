@@ -8,12 +8,5 @@
       "source": "/api/:path*",
       "destination": "/api/index.js"
     }
-  ],
-  "functions": [
-    {
-      "name": "api/index",
-      "path": "api/index.js",
-      "description": "Main API Handler"
-    }
   ]
 }
